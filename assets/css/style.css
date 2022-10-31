@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ropa Sans";
+}
+
+/* !!!!!!!!INICIO HEADER!!!!!!! */
+
+header {
+  height: 10vh;
+  width: 100%;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+
+  /*aqui eu fiz a base do topo do header com a sombra de baixo*/
+}
+
+.container-header {
+  padding: 1% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /*aqui já é o posicionamento das duas principais sessões no header*/
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #777777;
+}
+
+.logoo {
+  font-size: 30px;
+}
+
+.sub-logoo {
+  font-size: 12px;
+  width: 4vw;
+}
+
+/* .center-header{
+    width: 80vw;
+} */
+
+.nav {
+  align-items: stret;
+}
+
+.div-nav {
+  height: 1px;
+  width: 18px;
+  border: 1px 1px solid black;
+  background-color: black;
+  margin: 3px;
+  border: 1px 1px solid black;
+}
+
+/* !!!!!AQUI ACABOU O HEADER!!!!! */
+
+/* INICIO MAIN*/
+
+.container-main {
+  margin-top: 1%;
+  padding: 1% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* IMAGEM PRINCIPAL*/
+
+.img-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.setas {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin-right: 4rem;
+}
+
+.circle {
+  position: absolute;
+  z-index: 2;
+  align-items: center;
+}
+
+.circle img {
+  width: 4rem;
+  height: 100%;
+}
+
+.seta {
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+}
+
+.seta img {
+  width: 1.5rem;
+  height: 100%;
+  margin-top: 0.5rem;
+  margin-left: 1.3rem;
+}
+
+/* .cj-seta-esquerda {
+    position: absolute;
+    z-index: 1;
+} */
+
+/*FIM IMAGEM PRINCIPAL*/
+
+/*COMEÇO PRODUTOS*/
+
+.lofts-a-venda {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.produto {
+  background-color: #eeeeee;
+
+  align-items: center;
+  justify-content: center;
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+}
+
+.vlr-bt-produto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0% 5%;
+  margin: 2% 0%;
+}
+
+.vlr-produto {
+  font-size: 25px;
+  color: #888888;
+}
+
+.bt-produto-sale {
+  font-size: 20px;
+  color: #ffffff;
+  background: #51d275;
+  border-radius: 10.5px;
+  width: 56px;
+  height: 21px;
+  text-align: center;
+}
+
+.bt-produto-new {
+  font-size: 20px;
+  color: #ffffff;
+  width: 56px;
+  height: 21px;
+  background: #dc9730;
+  border-radius: 10.5px;
+  text-align: center;
+}
+
+.desc-produto {
+  padding: 0% 5%;
+  margin-bottom: 3%;
+  color: #888888;
+}
+
+/*FIM PRODUTOS*/
+
+/*INICIO LISTA OPÇÕES DE BAIXO DO SITE*/
+.your-style {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.your-style-1 {
+  font-size: 25px;
+  color: #888888;
+  line-height: 26.8px;
+  margin: 3% 0;
+}
+
+.your-style-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background: url("../img/Rectangle\ 11.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  margin: 3% 0;
+}
+
+.your-style-text {
+  font-size: 25px;
+  color: #313131;
+  line-height: 26.8px;
+  background: rgba(121, 121, 121, 0.453);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 0;
+}
+
+.your-style-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background: url("../img/Rectangle\ 12.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  margin: 3% 0;
+}
+
+.your-style-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background: url("../img/Rectangle\ 13.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  margin: 3% 0;
+}
+
+/*FIM LISTA OPÇÕES DE BAIXO DO SITE*/
+
+/* FINAL MAIN*/
+
+/*INICIO FOOTER*/
+
+footer {
+  background-color: #333333;
+  padding: 2rem 0rem;
+}
+
+.container-footer {
+  margin-top: 1%;
+  padding: 1% 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.maps-footer img {
+  width: 100%;
+  height: 16rem;
+}
+
+.contato-footer {
+  padding-right: 6rem;
+  color: white;
+}
+
+.endereco ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.endereco ul li {
+  margin: 0.5rem 0;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links div {
+  margin: 0.5rem;
+}
